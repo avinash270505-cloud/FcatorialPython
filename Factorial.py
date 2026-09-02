@@ -6,7 +6,7 @@ factorial = 1
 
 
 if number < 0:
-    print("Factorial is not defined for negative numbers.")
+    print("The Factorial is not defined for negative numbers.")
 
 else:
  
