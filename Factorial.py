@@ -1,5 +1,5 @@
 
-number = 7
+number = 5
 
 
 factorial = 1
