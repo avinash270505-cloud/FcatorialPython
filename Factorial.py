@@ -1,22 +1,14 @@
+# Input three numbers
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+num3 = float(input("Enter third number: "))
 
-number = 7
-
-
-factorial = 1
-
-
-if number < 0:
-    print(" Factorial is not defined for negative numbers.")
-
+# Check conditions to find the greatest number
+if (num1 >= num2) and (num1 >= num3):
+    greatest = num1
+elif (num2 >= num1) and (num2 >= num3):
+    greatest = num2
 else:
- 
-    for i in range(1, number + 1):
-        factorial = factorial * i
+    greatest = num3
 
-   
-    print("======================================")
-    print("          FACTORIAL CALCULATOR")
-    print("======================================")
-    print("Given Number :", number)
-    print("Factorial    :", factorial)
-    print("======================================")
+print(f"The greatest number is: {greatest}")
