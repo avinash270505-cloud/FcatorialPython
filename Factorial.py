@@ -1,7 +1,7 @@
 # Input three numbers
-num1 = float(input("Enter first number: "))
-num2 = float(input("Enter second number: "))
-num3 = float(input("Enter third number: "))
+num1 = float(input(" first number: "))
+num2 = float(input(" second number: "))
+num3 = float(input("third number: "))
 
 # Check conditions to find the greatest number
 if (num1 >= num2) and (num1 >= num3):
